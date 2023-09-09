@@ -697,6 +697,10 @@ p{
   display: grid;
 }
 
+.hidden{
+  display: none;
+}
+
 .h-16{
   height: 4rem;
 }
@@ -707,6 +711,14 @@ p{
 
 .h-5{
   height: 1.25rem;
+}
+
+.\!h-36{
+  height: 9rem !important;
+}
+
+.h-64{
+  height: 16rem;
 }
 
 .min-h-screen{
@@ -1186,6 +1198,10 @@ p{
 
   .md\:col-span-3{
     grid-column: span 3 / span 3;
+  }
+
+  .md\:flex{
+    display: flex;
   }
 
   .md\:grid-cols-3{
