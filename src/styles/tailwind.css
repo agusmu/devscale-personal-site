@@ -8,4 +8,26 @@
   body {
     @apply font-sans;
   }
+  h1 {
+    @apply font-semibold text-black text-3xl;
+  }
+  h2 {
+    @apply font-semibold text-black text-3xl;
+  }
+  h3 {
+    @apply font-semibold text-black text-2xl;
+  }
+  p {
+    @apply text-sm font-medium leading-relaxed text-gray-600;
+  }
+}
+
+@layer components {
+  .card {
+    @apply min-h-fit lg:h-64 hover:scale-105 bg-white shadow-sm shadow-zinc-200/50 rounded-3xl duration-500 ease-in-out;
+  }
+
+  .logo-brand {
+    @apply w-16 h-16 inline-block;
+  }
 }
